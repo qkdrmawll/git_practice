@@ -7,6 +7,15 @@
 git init 
 
 # 원격지 주소 생성 및 추가
-# 원격지 주소 생성
+# 원격지 주소 추가
+# origin = 원격
 git remote add origin 리포지토리 주소
 
+# 원격지 주소 삭제
+git remote remove origin
+
+# 원격지 주소 변경
+git remote set-url origin 변경할 리포지토리 주소
+
+# git 설정 정보 조회
+git config --list
