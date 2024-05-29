@@ -12,5 +12,8 @@ git commit -m "메시지 타이틀" -m "메시지 내용"
 
 # vi 모드에서 작성 : git commit 후 엔터
 
+# add와 commit 동시에
+git commit -am "커밋메시지"
+
 # commit 이력 확인 (local repsitory의 이력)
 git log
