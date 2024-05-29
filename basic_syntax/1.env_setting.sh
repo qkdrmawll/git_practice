@@ -50,3 +50,18 @@ git config --global user.name "이름"
 git config --global user.email "이메일"
 
 # 지역적 사용자(이름, 이메일) 지정
+# 현재 레파지토리에 한해서만 사용자 지정
+git config --local user.name "이름"
+git config --local user.email "이메일"
+
+# repository, 이름, email ..
+git config --list
+
+# 사용자 이름 조회
+git config user.name "이름"
+
+# 사용자 이메일 조회
+git config user.email "이메일"
+
+# git ignore 파일 실습
+# 확장자 .gitignore 파일 생성 후 git 추적 제외 대상 나열
