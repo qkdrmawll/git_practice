@@ -61,5 +61,6 @@ git revert 커밋ID
 
 # 버전별 비교 명령어 : diff
 # A를 기준으로 B가 어떤 변경이 있는지를 비교
+git diff A B
 git diff commitId1 commitId2
 git diff A브랜치 B브랜치
