@@ -17,3 +17,14 @@ git commit -am "커밋메시지"
 
 # commit 이력 확인 (local repsitory의 이력)
 git log
+
+# commit log 간결하게
+git log --oneline
+
+# 전체 이력 조회
+git log --all
+
+# 원격저장소로 업로드
+git push origin 브랜치명
+
+# 충돌 무시하고 강제 push
