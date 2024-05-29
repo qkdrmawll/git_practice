@@ -31,3 +31,22 @@ git remote set-url origin 변경할 리포지토리 주소
 
 # git 설정 정보 조회
 git config --list
+
+# 타인레포 clone 방법 2가지
+# 커밋 이력 그대로 가져오기
+git clone 타인레포주소
+git remote set-url origin 레포주소
+git push origin master # 별도의 add, commit 필요 없음
+# 커밋 이력없이 가져오기
+git clone 타인레포주소
+rm .git
+git remote add origin 레포주소
+git add .
+git commit -m "first project"
+
+# 사용자 지정 방법
+# 전역적 사용자(이름, 이메일) 지정
+git config --global user.name "이름"
+git config --global user.email "이메일"
+
+# 지역적 사용자(이름, 이메일) 지정
