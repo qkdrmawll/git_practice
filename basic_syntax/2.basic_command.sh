@@ -44,10 +44,7 @@ git pull origin 브랜치명
 
 # git 작업 취소
 # working directory에서의 취소
-# 수정사항만 취소
 git checkout .
-# working directory에서 추가파일 취소
-git clean 
 
 # staging area에서의 취소
 git reset
@@ -64,3 +61,4 @@ git revert 커밋ID
 git diff A B
 git diff commitId1 commitId2
 git diff A브랜치 B브랜치
+
