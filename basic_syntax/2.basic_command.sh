@@ -101,6 +101,6 @@ git branch  브랜치명
 # 해당 브랜치로 전환
 git checkout 브랜치명
 
-# 브핸치 
+# 브래치 목록 조회
 git branch
 
