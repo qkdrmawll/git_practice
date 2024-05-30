@@ -70,14 +70,19 @@ git fetch --all
 
 # 작업 중인 사항을 임시저장
 git stash 
+
 # 저장한 최신의 작업 목록 꺼내기 
 git stash pop
+
 # 저장한 목록은 놔둔채 작업목록 적용
 git stash apply stash@인덱스값
+
 # 저장한 작업사항 목록 조회
 git stash list
+
 # 저장한 작업목록 상세 조회
 git stash show -p 인덱스
+
 # 저장한 stash 목록 전체 삭제
 git stash clear
 
@@ -98,10 +103,9 @@ git branch  브랜치명
 # 해당 브랜치로 전환
 git checkout 브랜치명
 
-# 브핸치 
+# 브랜치 목록 조회
 git branch
 
 # 브랜치 생성과 전환 동시에
 git checkout -b 브랜치명
 
-# 
