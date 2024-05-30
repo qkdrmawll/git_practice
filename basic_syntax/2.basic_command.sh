@@ -67,6 +67,8 @@ git diff A브랜치 B브랜치
 # 비교 : git pull origin main과 git fetch origin main
 # 모든 브랜치 정보 fetch
 git fetch --all
+git fetch --all --prune
+
 
 # 작업 중인 사항을 임시저장
 git stash 
@@ -109,3 +111,5 @@ git branch
 # 브랜치 생성과 전환 동시에
 git checkout -b 브랜치명
 
+# 로컬 브랜치 삭제
+git branch -D 브랜치명
