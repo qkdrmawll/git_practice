@@ -89,3 +89,12 @@ git push origin v1.0
 
 # 태그 목록 조회
 git tag
+
+# branch 생성
+git branch  브랜치명
+
+# 해당 브랜치로 전환
+git checkout 브랜치명
+
+# 브핸치 
+git branch
